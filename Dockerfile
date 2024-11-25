@@ -18,7 +18,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the jar file from the Maven build step
-COPY --from=build target/hello-world-1.0-SNAPSHOT.jar /app/hello-world-1.0-SNAPSHOT.jar
+COPY target/hello-world-1.0-SNAPSHOT.jar /app/hello-world-1.0-SNAPSHOT.jar
 
 # Expose the port your app will run on (adjust if needed)
 EXPOSE 8080
