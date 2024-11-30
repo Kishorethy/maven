@@ -13,7 +13,10 @@
     <!-- Set the Java version for compiling -->
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source> <!-- Set Java source version -->
-        <maven.compiler.target>1.8</maven.compiler.target> <!-- Set Java target version -->
+	<maven.compiler.target>1.8</maven.compiler.target> <!-- Set Java target version -->
+
+        <sonar.login>squ_ccacfea2c4a264e8e9082dd7c324b525634c3f7a</sonar.login>
+
     </properties>
 
     <dependencies>
